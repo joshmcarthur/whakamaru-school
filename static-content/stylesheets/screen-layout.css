@@ -1,0 +1,179 @@
+﻿/* 
+	Filename: screen-layout.css
+	Purpose: Provide styles for page layouts on-screen.
+	
+	Author: Joshua McArthur
+	Date: May 2010
+*/
+
+
+/* Tag Styles */
+body
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+li
+{
+	margin: 10px auto 10px auto;
+}
+
+/* ID Styles */
+
+#page-area
+{
+	width: 700px;
+	margin: 10px auto 20px auto;
+	padding: 2px;
+	background-color: #FFFFFF;
+	text-align: left;
+
+}
+
+
+#page-area #page-content
+{
+	min-height: 500px;
+	
+}
+
+
+#page-area #page-header
+{
+	margin: 0 0 15px 0;
+	padding: 0px;
+}
+
+#page-area #page-header #header-image
+{
+	width: 690px;
+	height: 200px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+
+
+#page-area #footer-image
+{
+	width: 690px;
+	height: 200px;
+	border: none;
+}
+
+
+
+
+/* Class Styles */
+hr.thick-bar
+{
+	width: 100%;
+	margin: 5px 0px 10px 0px;
+	padding: 0px;
+	height: 6px;
+	border: none;
+	background-color: #336699;
+}
+
+hr.thin-bar
+{
+	width: 100%;
+	margin: 5px 0px 10px 0px;
+	padding: 0px;
+	height: 3px;
+	border: none;
+	background-color: #336699;
+}
+
+
+a.nav
+{
+	display: inline-block;
+	color: #000000;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+	border-bottom: 1px #666666 dotted;
+	margin: 0px 7px 0px 7px;
+	padding: 0;
+	text-decoration: none;
+}
+
+a.nav:hover
+{
+	border-bottom: 2px #000000 solid;
+}
+
+a.nav:visited
+{
+	border-bottom: 1px #666666 solid;
+}
+
+
+.img_float_right
+
+{
+
+	padding-top: 10px;
+
+	padding-right: 10px;
+
+	padding-bottom: 20px;
+
+	padding-left: 20px;
+
+	float: right;
+
+}
+
+div.anchor-bar
+{
+	width: auto;
+	border-left: 1px #999999 solid;
+	border-right: 1px #999999 solid;
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	margin: auto;
+	text-align: center;
+}
+
+div.anchor-bar a
+{
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+	padding: 15px;
+}
+
+div.anchor-bar a:hover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
+span.divider
+{
+	border-right: 1px #999999 solid;
+	height: 100%;
+	width: 5px;
+	padding: 5p;
+}
+
+.ajax-spinner
+{
+	width: 48px;
+	height: 48px;
+	border: none;
+	margin: auto;
+}
+
+.ajax-spinner-text
+{
+	color: #000000;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+}
