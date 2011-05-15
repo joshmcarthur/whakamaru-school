@@ -33,8 +33,8 @@ class FtpDeployer
         ftp.put(remote_file(file)) if File.stat(local_file(file)).mtime > ftp.mtime(remote_file(file))
       end
       ftp.close
-    #rescue Exception => exp
-     # puts "ERROR: #{exp.message}\nAborting..."
+    rescue Exception => exp
+     puts "ERROR: #{exp.message}\nAborting..."
     end
   end
 
