@@ -3,11 +3,6 @@
 <?xml-stylesheet href="news.xsl" type="text/xsl" ?>
 
 <news-items>
-
-  <item>
-    <title>Newsletter - 11 April</title>
-    <full_url>http://www.whakamaru.school.nz/change-content/newsletters/11April2011.pdf</full_url>
-  </item>
   
   <item>
     <title>Newsletter - 2 May</title>
@@ -17,6 +12,11 @@
   <item>
     <title>Newsletter - 9 May</title>
     <full_url>http://www.whakamaru.school.nz/change-content/newsletters/9May2011.pdf</full_url>
+  </item>
+  
+  <item>
+    <title>Newsletter - 16 May</title>
+    <full_url>http://www.whakamaru.school.nz/change-content/newsletters/16May2011.pdf</full_url>
   </item>
 </news-items>
 
