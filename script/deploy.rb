@@ -32,8 +32,8 @@ class FtpDeployer
       self.ftp_connection.chdir(self.remote_dir)
       recursively_upload_from(self.deploy_dir)
       self.ftp_connection.close
-    #rescue Exception => exp
-     # puts "ERROR: #{exp.message}\nAborting..."
+    rescue Exception => exp
+      puts "ERROR: #{exp.message}\nAborting..."
     end
   end
 
