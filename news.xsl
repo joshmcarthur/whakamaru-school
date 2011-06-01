@@ -37,12 +37,7 @@
 	<!-- End Document Attachments -->
 	
 	
-	<!-- Additional Scripting -->
-	<script type="text/javascript" language="javascript">
 	
-	</script>
-	
-	<!-- End Additional Scripting -->
 
 	
 	<title>Whakamaru School</title>
@@ -111,11 +106,7 @@
 	
 	<img id="footer-image" src="static-content/images/wp-footer.jpg" width="690" height="200" alt="Forest Landscape"></img>
 
-
-
-
-
-
+  <a class="attribution" href="http://www.joshmcarthur.com">Built by Josh McArthur</a>
 </div>
 
 
