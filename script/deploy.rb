@@ -72,5 +72,6 @@ class FtpDeployer
     end
   end
 end
+
 FtpDeployer.new(ARGV[0]).deploy
 
