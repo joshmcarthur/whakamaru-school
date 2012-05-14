@@ -3,15 +3,6 @@
 <?xml-stylesheet href="news.xsl" type="text/xsl" ?>
 
 <news-items>
-
-
-
-  <item>
-    <title>Newsletter - 23 April</title>
-    <full_url>http://www.whakamaru.school.nz/change-content/newsletters/23April2012.pdf</full_url>
-  </item>
-
-
   <item>
     <title>Newsletter - 30 April</title>
     <full_url>http://www.whakamaru.school.nz/change-content/newsletters/30April2012.pdf</full_url>
@@ -23,6 +14,9 @@
     <full_url>http://www.whakamaru.school.nz/change-content/newsletters/7May2012.pdf</full_url>
   </item>
 
-
+  <item>
+    <title>Newsletter - 14 May</title>
+    <full_url>http://www.whakamaru.school.nz/change-content/newsletters/14May2012.pdf</full_url>
+  </item>
 </news-items>
 
