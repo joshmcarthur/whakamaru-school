@@ -20,7 +20,7 @@ class FtpDeployer
     self.username = self.config[environment.to_s]["username"]
     self.password = password || ENV['PASSWORD']
     self.remote_dir = self.config[environment.to_s]["remote_dir"] || "/www"
-    self.deploy_dir = self.config[environment.to_s]["local_dir"] || Dir.pwd
+    self.deploy_dir = self.config[environment.to_s]["local_dir"] || File.join(Dir.pwd, '_site')
     self.file_permission = 0644
     self.dir_permission = 0755
   end
