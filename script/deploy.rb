@@ -41,7 +41,7 @@ class FtpDeployer
 
   def recursively_upload_from(dir)
     Dir.foreach(dir) do |file|
-      next if file == "." || file == ".." || file == ".git" || file =~ /\.yml\Z/
+      next if file == "." || file == ".." || file == ".git" || file =~ /\.yml\Z/ || file =~ /\.rb\Z/
       if File.directory?(File.join(dir, file))
         find_or_create_remote_directory(remote_path(File.join(dir, file)))
         recursively_upload_from(File.join(dir,file))
